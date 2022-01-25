@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: gray;
+}
+
+header{
+    background-color: aqua;
+    color: black;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
+
+#picture{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 280px;
+    border: 1px solid black;
+}
+
+.buttons{
+    margin-top: 30px;
+    text-align: center;
+}
+
+button{
+    background-color: aqua;
+    font-weight: 700;
+}
+
+#paragraph{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+}
