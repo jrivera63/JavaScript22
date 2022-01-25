@@ -1,0 +1,35 @@
+{
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My FTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"targets": [
+		{
+			"name": "My FTP",
+			"type": "ftp",
+			"host": "jrivera63.mccdgm.net",
+			"port": 21,
+			"user": "jrivera63sp22",
+			"password": "Boricua1902",
+			"dir": "/public_html"
+		},
+		{
+			"name": "My SFTP",
+			"type": "sftp",
+			"host": "jrivera63.mccdgm.net",
+			"port": 22,
+			"user": "jrivera63sp22",
+			"password": "Boricua1902",
+			"dir": "/public_html",
+			"privateKey": null,
+			"passphrase": null
+		}
+	]
+}
