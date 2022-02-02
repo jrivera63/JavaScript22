@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/myscript.js"></script>
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Food Menu</h1>
+    </header>
+    <body>
+        <div class="info">
+            <h2>Customer Info</h2>
+            <div class="border">
+                <form>
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" name="fname" id="fname" required><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" name="lname" id="lname" required><br>
+                    <label for="phoneNum">Phone Number: </label><br>
+                    <input type="text" name="phoneNum" id="phoneNum">
+                    
+                </form>
+            </div>
+        </div>
+        <div class="menu">
+            <h2>Sandwiches</h2>
+            <div class="border">
+                <form>
+                    <label for="meatball">Meatball Sub -- $4.00</label>
+                    <input type="text" name="meatball" id="meatball" size="1" value="0"><br>
+                    <label for="hamcheese">Ham and Cheese -- $3.25</label>
+                    <input type="text" name="hamcheese" id="hamcheese" size="1" value="0"><br>
+                    <label for="vegan">Vegan Sub -- $3.00</label>
+                    <input type="text" name="vegan" id="vegan" size="1" value="0"><br>
+                    <label for="philly">Philly Cheesesteak -- $7.25</label>
+                    <input type="text" name="philly" id="philly" size="1" value="0"><br>
+                    <label for="flatbread">Toasted Flatbread -- $4.50</label>
+                    <input type="text" name="flatbread" id="flatbread" size="1" value="0">
+                </form>
+            </div>
+        </div>
+
+        <div class="menu">
+            <h2>Drinks</h2>
+            <div class="border">
+                <form>
+                    <label for="water">Water -- $1.00</label>
+                    <input type="text" name="water" id="water" size="1" value="0"><br>
+                    <label for="lemonade">Lemonade -- $1.75</label>
+                    <input type="text" name="lemonade" id="lemonade" size="1" value="0"><br>
+                    <label for="coke">Coke -- $2.50</label>
+                    <input type="text" name="coke" id="coke" size="1" value="0"><br>
+                    <label for="pepper">Dr.Pepper -- $2.50</label>
+                    <input type="text" name="pepper" id="pepper" size="1" value="0"><br>
+                    <label for="sprite">Sprite -- $2.50</label>
+                    <input type="text" name="sprite" id="sprite" size="1" value="0">
+                </form>
+            </div>
+        </div>
+
+        <div class="menu">
+            <h2>Desserts</h2>
+            <div class="border">
+                <form>
+                    <label for="cookie">Cookie -- $1.25</label>
+                    <input type="text" name="cookie" id="cookie" size="1" value="0"><br>
+                    <label for="icecream">Ice Cream Sandwich -- $2.00</label>
+                    <input type="text" name="icecream" id="icecream" size="1" value="0"><br>
+                    <label for="pie">Apple Pie Slice -- $2.50</label>
+                    <input type="text" name="pie" id="pie" size="1" value="0"><br>
+                    <label for="cake">Cake Slice -- $3.00</label>
+                    <input type="text" name="cake" id="cake" size="1" value="0"><br>
+                    <label for="muffin">Muffin -- $2.25</label>
+                    <input type="text" name="muffin" id="muffin" size="1" value="0">
+                </form>
+            </div>
+        </div>
+
+
+        <div class="checkout">
+            <button type="button" onclick="orderTotal()">Checkout</button>
+            <h3>Checkout:</h3>
+            <p id="sandwich-check"></p>
+            <p id="drink-check"></p>
+            <p id="dessert-check"></p>
+            <p id="total"></p>
+            
+        </div>
+    </body>
+    <footer>
+        <strong>&copy; Josiah Rivera</strong>
+    </footer>
+</body>
+</html>

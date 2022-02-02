@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+
+h1{
+    margin: 0;
+    background-color: orange;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.info{
+    width: fit-content;
+    /*--border: 2px solid black;--*/
+    margin: auto;
+    
+}
+
+.border{
+    display: inline-block;
+    border: 3px solid orange;
+}
+
+form{
+    margin: 10px;
+}
+
+label{
+    margin-top: 5px;
+}
+
+.menu{
+    width: fit-content;
+    margin: auto;
+}
+
+.checkout{
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button{
+    margin: auto;
+}
+
+.checkout{
+    font-weight: 600;
+}
+
+footer{
+    background-color: orange;
+    text-align: center;
+}
