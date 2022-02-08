@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/game-background.jpg");
+    font-size: larger;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(43, 38, 38);
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    background-color: rgb(109, 105, 105);
+    width: 700px;
+}
+
+img{
+    display: block;
+    margin: auto;
+
+    height: 400px;
+    width: 450px;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.container p{
+    text-align: center;
+    font-weight: 800;
+}
+
+footer{
+    background-color: rgb(43, 38, 38);
+    color: white;
+    text-align: center;
+}
