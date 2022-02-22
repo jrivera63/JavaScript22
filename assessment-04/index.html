@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Guess the Number!</title>
+</head>
+<body>
+    <header>
+        <h1><span style="font-family: 'Permanent Marker', cursive; color: red;">Hot</span> or <span style="font-family: 'Iceberg', cursive; color: aqua;">Cold</span></h1>
+    </header>
+    <main>
+        <div class="number-container">
+            <h2>Guess the Number! (1-1000)</h2>
+            <div class="number-box">
+                <h3 id="number"></h3>
+            </div>
+        </div>
+        <div class="guess-container">
+            <form>
+                <label for="guess">Guess a Number:</label>
+                <input type="number" id="guess" width="10">
+                <button type="button" id="submit" onclick="guessNumber()">Submit</button>
+            </form>
+            <h3 id="hotCold"></h3>
+        </div>
+    </main>
+    <footer>
+        <strong>&copy; 2022 Josiah Rivera</strong>
+    </footer>
+    <script src="scripts/myscript.js"></script>
+</body>
+</html>
