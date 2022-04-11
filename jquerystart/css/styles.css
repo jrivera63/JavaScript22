@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    color: rgb(241, 164, 20);
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(241, 241, 70);
+    border: 2px solid rgb(241, 164, 20);
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: larger;
+    font-family:  Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+button{
+    padding: 8px;
+    background-color: rgb(241, 164, 20);
+    color: black;
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(241, 164, 20);
+    background-color: black;
+}
+
+main{
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(241, 164, 20);
+}

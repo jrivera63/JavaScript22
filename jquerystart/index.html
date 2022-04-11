@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#para-button").click(function(){
+                $("p").hide();
+            });
+
+            $("#h2-button").click(function(){
+                $("h2").hide();
+            });
+
+            $("#id-button").click(function(){
+                $("#hide-me").hide();
+            });
+
+            $("#main-button").click(function(){
+                $("main").hide();
+            });
+
+        });
+
+
+
+    </script>
+
+    <title>jQuery</title>
+</head>
+<body>
+    <header>
+        <h1>jQuery</h1>
+        <button id="para-button">Click to hide paragraphs</button>
+        <button id="h2-button">Click to hide h2</button>
+        <button id="id-button">Click to hide div with ID</button>
+        <button id="main-button">Click to hide all of main</button>
+    </header>
+    <main>
+        <div class="container">
+            <h2>h2</h2>
+            <p>This is a paragraph in the main section</p>
+            <h2>h2</h2>
+            <p>This is a paragraph in the main section</p>
+            <h2>h2</h2>
+            <p>This is a paragraph in the main section</p>
+        </div>
+
+        <div class="container" id="hide-me">
+            <h3>Hide Me!</h3>
+        </div>
+    </main>
+    <footer>
+        <strong>&copy; Josiah Rivera 2022</strong>
+    </footer>
+</body>
+</html>
